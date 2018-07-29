@@ -7,7 +7,7 @@
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
-      "prefix": "app",
+      "prefix": "dmd",
       "schematics": {},
       "architect": {
         "build": {
@@ -123,5 +123,10 @@
       }
     }
   },
-  "defaultProject": "dm-dashboard"
+  "defaultProject": "dm-dashboard",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }

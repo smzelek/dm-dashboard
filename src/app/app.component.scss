@@ -1,0 +1,26 @@
+.layout {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        .dice-roller {
+            flex: 1;
+            background-color: brown;
+        }
+
+        .playlist {
+            flex: 1;
+            background-color: green;
+        }
+
+        .initiative {
+            flex: 1;
+            background-color: black;
+        }
+    }
+}

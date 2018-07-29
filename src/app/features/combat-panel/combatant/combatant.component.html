@@ -1,0 +1,12 @@
+<div class="card">
+    <div class="hp-bar" [style.width.px]="combatant.maxHP">
+        <div class="current" [style.width.%]="combatant.currentHP / combatant.maxHP * 100">
+        </div>
+        <div class="numbers">
+            {{combatant.currentHP}} / {{ combatant.maxHP}}
+        </div>
+    </div>
+    <div class="nameplate">
+        {{combatant.name}}
+    </div>
+</div>
