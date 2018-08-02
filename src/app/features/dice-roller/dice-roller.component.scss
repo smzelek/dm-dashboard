@@ -1,0 +1,8 @@
+.dice-roller {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    .output {
+        flex: 1;
+    }
+}
